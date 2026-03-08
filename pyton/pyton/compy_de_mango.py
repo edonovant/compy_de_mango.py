@@ -61,7 +61,7 @@ def obtener_frase(modo, nivel, tipo):
     
     # Si el mazo no existe o se vació, lo cargamos desde el archivo
     if llave_mazo not in st.session_state or len(st.session_state[llave_mazo]) == 0:
-        ruta = f"pyton/Niveles/{modo}/{nivel}/{tipo}1.txt" # Ajustado a tu carpeta 'pyton'
+        ruta = f"pyton/Niveles/{modo}/{nivel}/{tipo}{nivel}.txt"
         try:
             with open(ruta, "r", encoding="utf-8") as f:
                 preguntas = [line.strip() for line in f.readlines() if line.strip()]

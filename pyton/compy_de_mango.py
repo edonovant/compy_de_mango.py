@@ -14,12 +14,7 @@ servidor = obtener_servidor()
 
 # --- 3. FUNCIONES LÓGICAS ---
 def obtener_burla():
-    burlas = ["🐣 ¡Vaya pollito!", "🏳️ ¡Bandera blanca!", "🍺 ¡Fondo!", "🤡 ¡Payaso!",
-                "🐣 ¡Vaya pollito! El miedo no anda en burros, anda en ti.",
-        "🏳️ ¡Bandera blanca! Alguien no aguantó la presión.",
-        "🍺 Menos charla y más trago. ¡Fondo, fondo, fondo!",
-        "🥱 Qué aburrido... ¿Seguro que viniste a jugar?",
-        "📉 Tu dignidad acaba de caer por los suelos. ¡Salud!",
+    burlas = ["🐣 ¡Vaya pollito!", "🏳️ ¡Bandera blanca!", "🍺 ¡Fondo!", "🤡 ¡Payaso!",  "📉 Tu dignidad acaba de caer por los suelos. ¡Salud!",
         "🐢 ¡Lento y miedoso! Tómate ese shot por cobarde.",
         "🤡 ¡Payaso! Para la otra mejor quédate en casa.",
         "🧊 Alguien se congeló bajo presión. ¡A beber!"
@@ -138,7 +133,7 @@ else:
     </div>
     """, unsafe_allow_html=True)
 
-   # --- 7. LÓGICA DE ACCIONES Y RULETA ---
+ # --- 7. LÓGICA DE ACCIONES Y RULETA ---
     if state["mensaje_burla"]:
         st.error(state["mensaje_burla"])
 
@@ -149,7 +144,19 @@ else:
         if st.button("🎲 GIRAR RULETA"):
             if state["modo"] == "pareja":
                 # Ruleta Picante para Parejas
-                ruleta = [
+                ruleta = [ 
+                     "CONFESIÓN: ¿Qué fue lo primero que pensaste de tu pareja cuando la conociste?", "BAILE: Bailen una canción lenta abrazados durante un minuto completo.", "SECRETOS: Muestra la foto más antigua que tengas de ambos en tu galería.", "CARICIAS: Hazle cosquillas a tu pareja hasta que te pida que te detengas.", "PROMESA: Haz una promesa romántica que debas cumplir la próxima semana.", "CINE: Describe a tu pareja usando solo títulos de películas.",
+                         "CITA IDEAL: Describe cómo sería tu cita perfecta de 24 horas.", "MIRADAS: Mírense a los ojos fijamente por 1 minuto sin hablar.", "PIROPO: Di el piropo más naco o divertido que te sepas.", "SUSURRO: Susurra algo atrevido al oído de tu pareja.", "CALOR: Quítate una prenda que tu pareja elija.", "PODER: Tu pareja puede pedirte cualquier favor pequeño ahora mismo.", "TATUAJE: Dibuja algo con un marcador en la piel de tu pareja.", "COMPLICIDAD: Cuenten un secreto que solo ustedes dos sepan.", "FOTO HOT: Tómense una foto sugerente (solo para ustedes).", "FUTURO: ¿Dónde se ven viviendo juntos en 5 años?", "GUSTO: ¿Cuál es la parte del cuerpo de tu pareja que más te atrae?", "PRIMERA VEZ: Cuenta un detalle gracioso de su primera vez juntos.", "CANCIÓN: Dedícale una canción que te recuerde a ella/él.", "REGLA: Prohíbe una palabra cariñosa por el resto del juego.", "ABRAZO LARGO: Abrázalo/a por la espalda mientras el siguiente jugador toma su turno.", "VALOR: ¿Qué es lo que más admiras de tu pareja?", "SUEÑO: Cuenta un sueño extraño que hayas tenido con tu pareja."
+                    "HIELO: Pasa un hielo por el cuello de tu pareja usando solo la boca.",
+                    "CALOR: Quítale una prenda a tu pareja usando solo los dientes.",
+                    "MASAJE: Dale un masaje de 1 minuto en la zona que tu pareja elija.",
+                    "SUSURRO: Susúrrale al oído tu fantasía más sucia.",
+                    "BÉSAME MUCHO: Besa a tu pareja en 3 lugares sorpresa.",
+                    "MORDIDA: Dale una mordida suave en el lóbulo de la oreja.",
+                    "CIEGO: Tápale los ojos a tu pareja y dale 5 besos.",
+                    "REGLA DE 10 SEG: Beso francés intenso durante 10 segundos.",
+                    "NALGADA: Dale una nalgada a tu pareja (con amor).",
+                    "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!"
                     "HIELO: Pasa un hielo por el cuello de tu pareja usando solo la boca.",
                     "CALOR: Quítale una prenda a tu pareja usando solo los dientes.",
                     "MASAJE: Dale un masaje de 1 minuto en la zona que tu pareja elija.",
@@ -174,6 +181,49 @@ else:
                     "DICTADOR: Eliges quién bebe 3 shots ahora mismo.",
                     "SOLTEROS: Todos los solteros beben 2 shots.",
                     "FINAL ÉPICO: ¡TODOS BEBEN DOS SHOTS!"
+                                        "ESPEJO: Eliges a alguien; lo que bebas tú, lo bebe esa persona.",
+                    "EL MAESTRO: Todos beben excepto tú.",
+                                         "SHOT COMUNITARIO: Todos los que tengan el celular en la mano beben.",
+                    "PISO ES LAVA: El último en levantarse de su asiento bebe 2 shots.",
+                                           "DICTADOR: Eliges quién bebe 3 shots ahora mismo.",
+                    "SOLTEROS: Todos los solteros beben 2 shots.",
+                                          "FINAL ÉPICO: ¡TODOS BEBEN DOS SHOTS!", 
+                    "CASCADA: Todos empiezan a beber y nadie para hasta que el de su derecha se detenga.", 
+                                               "DICTADOR: Inventa una regla absurda; quien la rompa bebe 2 shots.", 
+                    "PUNTERO: El que tenga menos batería en el celular se toma 2 shots de castigo.", 
+                                                            "TIRO AL BLANCO: Elige a una víctima para que beba 3 shots contigo ahora mismo.", 
+                    "EL MAESTRO: Todos deben imitar tus movimientos; el último en notar el cambio bebe.", 
+                                    "SHOT POR ALTURA: El más alto y el más bajo del grupo brindan y beben.", 
+                    "SANGRE FRÍA: Elige a alguien para un duelo de miradas; el primero en parpadear bebe.",
+                                                          "BARMAN: El grupo te prepara una mezcla extraña y debes beberla sin hacer caras.", 
+                      "CHISMOSO: El último en poner el dedo en la nariz recibe penalización de bebida.", 
+                                  "ESPEJO: Elige a un gemelo; todo lo que tú bebas, él debe beberlo también.", 
+                                           "SENTADILLA: Haz 5 sentadillas; si te tambaleas, bebes doble.", 
+                         "TELÉFONO DESCOMPUESTO: Susurra algo al oído del de al lado; si el mensaje llega mal, todos beben.", 
+                                                    "CATEGORÍAS: Di marcas de cerveza; el primero en repetir o tardar bebe.", 
+                                 "REY DEL SHOT: Tienes el poder de obligar a cualquiera a beber un shot gratis.", 
+                                           "FONDO: Elige a alguien para que termine su vaso de un solo trago.",
+                                 "CERO CONTACTO: No puedes tocar tu celular por 3 turnos o bebes 2 shots.",
+                         "EL MUDO: No puedes hablar hasta que sea tu turno otra vez o bebes.",
+                              "ZURDO: Todos deben beber con la mano izquierda; el que use la derecha bebe doble.", 
+                          "MEDIO TIEMPO: Todos los que tengan su vaso a la mitad o menos deben terminarlo.", 
+                            "BRINDIS: Di un brindis épico; si nadie aplaude, bebes 2 shots.", 
+                          "CUMPLEAÑOS: Todos los que cumplan años en mes par beben un shot.", 
+                          "VULNERABLE: Elige a alguien para que te confiese un secreto o ambos beben.", 
+                          "SUERTE: Lanza una moneda; si sale cara bebes tú, si sale cruz beben todos menos tú.", 
+                          "REGLA DE TRES: El número 3 está prohibido; el que lo diga en cualquier frase bebe.", 
+                          "TRES MOSQUETEROS: Tú y los dos de tus lados beben un shot de la amistad.",
+                          
+                          "VENGANZA: El último que te hizo beber ahora debe beber el doble.", 
+                          "CÓDIGO DE VESTIMENTA: Todos los que traigan color negro beben un shot.",
+                           "EL SUBMARINO: Pon un shot dentro de un vaso de cerveza y tómatelo.", 
+                           "SIN RESPIRAR: Bebe medio vaso sin despegar los labios.", 
+                           "RULETA RUSA: Sirve 5 vasos de agua y 1 de vodka; alguien debe elegir al azar.", 
+                           "BARTENDER PROFESIONAL: Mezcla dos tipos de alcohol y dáselo al que peor te caiga.", 
+                           "INFANTIL: El último en decir '¡Chiquitibum!' bebe 2 shots.", 
+                           "EL HATER: Di algo que odies; todos los que estén de acuerdo beben.",
+                            "SABIO: Di un dato curioso; si alguien ya lo sabía, bebes tú.", 
+                    "FINAL ÉPICO: ¡Todos los jugadores beben un shot de despedida!"
                 ]
             state["reto_actual"] = random.choice(ruleta)
 

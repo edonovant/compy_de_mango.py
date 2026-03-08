@@ -14,47 +14,40 @@ servidor = obtener_servidor()
 
 # --- 3. FUNCIONES LÓGICAS ---
 def obtener_burla():
-    burlas = ["🐣 ¡Vaya pollito!", "🏳️ ¡Bandera blanca!", "🍺 ¡Fondo!", 
-              "🤡 ¡Payaso!","¡Vaya pollito! El miedo no anda en burros, anda en ti.", 
-              "🐣 Pío, pío... ¿alguien escuchó un pollito?", "¡Gallina detectada! Ese shot no se va a tomar solo.", 
-              "🐣 ¿Quieres que te traiga un vasito de leche mejor?", "El reto era para valientes, no para aves de corral.", 
-              "🚨 Alerta de cobardía: un pollito en la mesa.", 
-              "🐣 Tu mamá dice que ya te metas porque te dio frío.",
-                "Menos plumas y más tragos, ¡salud!", "🐣 Si tienes miedo, compra un perro, no vengas a jugar.", 
-                "Un brindis por el pollito de la noche.", "¡Payaso! Para la otra mejor quédate en casa.", 
-                "🤡 Mucho teatro y poco valor. ¡Shot!", "¡Uy! El miedo se sentó contigo en la mesa.", 
-                "🤡 Felicidades, ganaste el premio al más miedoso.", "Qué triste espectáculo… toma y sigue.", 
-                "🤡 ¿Vergüenza? No, eso se cura con tequila.", "Nivel de valentía: bajo cero.", 
-                "🤡 Si la cobardía fuera oro, ya serías millonario.", "Parece que alguien vino a ver y no a jugar.", 
-                "🤡 No cumpliste... ya sabes lo que toca. ¡Salud!", "🪦 Tu valentía acaba de morir. Brindemos por ella.", 
-                "Descansa en paz tu dignidad.", "💀 Game over para tu orgullo. ¡A beber!", 
-                "🪦 Aquí yacen las agallas de alguien que no pudo.", "Tu dignidad acaba de caer por los suelos. ¡Salud!", 
-                "💀 Ni un reto pudiste... qué decepción.", "Brindemos por el valor que se le escapó por la ventana.", 
-                "💀 El tequila está esperando por ti, miedoso.", "🪦 Un minuto de silencio por el honor perdido.",
-                  "Te acabas de jubilar de la diversión.", "🥃 No hiciste nada, así que fondo.", 
-                  "¡Fondo, fondo, fondo por cobarde!",
-                    "🥃 Menos charla y más trago.", "Si no hay reto, hay shot. Regla de oro.", 
-                    "🥃 Tu orgullo acaba de pagar ese trago.", "A beber se ha dicho, ¡salud por el miedo!",
-                      "🥃 El vaso está lleno, igual que tu miedo.", 
-                      "Un trago por cada vez que dijiste no puedo", 
-                      "🥃 Bebe y olvida que no tuviste valor.", "¡Shot obligatorio por falta de huevos!", 
-                      "¡Ratón! El reto no muerde… pero el tequila sí.", "🐭 Alguien eligió el camino fácil. ¡Salud!",
-                        "Mírenlo, se hizo chiquito ante el reto.", "🐭 ¿Te da amansadora el tequila o el reto?", "Un ratoncito más para la colección.", "🐭 Corre por tu shot antes de que te de más miedo.", "La presión te hizo minúsculo.", "🐭 ¿Oíste eso? Fue el sonido de tu valor escapando.", 
-                      "Te falta mucho para ser el rey de la fiesta.", "🐭 Mejor suerte para la próxima, pequeñín.", 
-                      "📉 Nivel de valentía: Crítico.", "⚠️ Sistema detecta falta de agallas.", "📉 Error 404: Valor no encontrado.", "La presión te derritió. ¡Toma ese shot!", "📉 Bajando puestos en el ranking de la noche.", "Misión fallida. Penalización en curso.", 
-                      "📉 Alguien se congeló bajo presión. ¡A beber!", "Fallas el objetivo… pero no falles el trago.", 
-                      "📉 Tu reputación acaba de entrar en bancarrota.", "Actualizando estado: Miedoso nivel leyenda.", "🐢 ¡Lento y miedoso! Tómate ese shot.", "Más lento que un perezoso para decidirse.", "🐢 Te dio tiempo de arrepentirte mil veces.", "La tortuga de la mesa ya tiene su shot.", "🐢 Si te tardas más, el tequila se evapora.", "Despierta campeón, esto es para valientes.", "🐢 El miedo te puso freno de mano.", "No lo pienses tanto y bebe.", "🐢 Sigues procesando el miedo, ¿verdad?", "La noche se acaba y tú sigues temblando.", "🚨 Cobardía detectada. Penalización inmediata.", "📢 Atención: se reporta un miedoso en esta mesa.", "🚨 ¡Wiu wiu wiu! Llegó la policía del valor.", "Alguien pidió el menú de niños, traigan el shot.", "🚨 Código Rojo: Alguien no aguantó la presión.", "¡Paren todo! Tenemos un desertor.", "🚨 La alarma de miedosos está sonando por ti.",
-                        "Fuera de combate por falta de agallas.", "🚨 Se busca: un poco de valor para este jugador.", 
-                        "Alerta de hielito: alguien se congeló.", "❄️ Frío, frío… congelado bajo presión.", 
-                        
-                    "Te pusiste azul del miedo.", "❄️ ¿Necesitas una mantita para ese frío?", "El pecho más frío de la peda.", 
-                    "❄️ Alguien se quedó tieso.", "No tiembles, el shot no te va a hacer nada.", 
-                    "❄️ Hielo en las venas y miedo en los ojos.", "Te congelaste en el momento clave.", 
-                    "❄️ Un brindis por el tempano de hielo de la noche.", "Menos frío y más fuego en ese trago.",
-                    "🎯 Directo a la cobardía.", "Te rendiste antes de empezar.", "🎯 Un aplauso para el que no pudo.",
-                     "La medalla de chocolate es para ti.", "🎯 Estuviste cerca... pero el miedo ganó.", "No llores, mejor bebe.", 
-                     "🎯 Alguien se rajó como media vieja.", 
-                        "El shot de la vergüenza ya está servido.", "🎯 Un paso atrás para el jugador, un shot para el hombre.", ]
+    burlas = ["🐣 ¡Vaya pollito!", "🏳️ ¡Bandera blanca!", "🍺 ¡Fondo!", "🤡 ¡Payaso!",  "📉 Tu dignidad acaba de caer por los suelos. ¡Salud!",
+        "🐢 ¡Lento y miedoso! Tómate ese shot por cobarde.",
+        "🤡 ¡Payaso! Para la otra mejor quédate en casa.",
+        "🧊 Alguien se congeló bajo presión. ¡A beber!"
+        "🐔 ¡Gallina detectada! Ese shot no se va a tomar solo.",
+"😱 ¡Uy! El miedo se sentó contigo en la mesa.",
+"🥃 No cumpliste... ya sabes lo que toca. ¡Salud!",
+"🎭 Mucho teatro y poco valor. ¡Shot!",
+"🚨 Cobardía detectada. Penalización inmediata.",
+"🧃 Parece que hoy alguien vino a beber gratis.",
+"🫠 La presión te derritió. ¡Toma ese shot!",
+"🎯 Fallaste el objetivo… pero no falles el trago.",
+"💤 Despierta campeón, esto es un juego de valientes.",
+"🪦 Tu valentía acaba de morir. Brindemos por ella.",
+"📢 Atención: se reporta cobardía en esta mesa.",
+"🐭 ¡Ratón! El reto no muerde… pero el tequila sí.",
+"🎮 Game over para tu valentía. ¡A beber!",
+"🧊 Frío, frío… congelado bajo presión.",
+"🍹 Alguien eligió el camino fácil. ¡Salud!",
+"🫣 ¿Vergüenza? No, eso se cura con tequila.",
+"🥲 Qué triste espectáculo… toma y sigue.",
+"⚠️ Sistema detecta falta de agallas.",
+"🍻 Si no haces el reto, al menos haz el shot.",
+"😶 Silencio incómodo… y un shot obligatorio.",
+"🤏 Muy cerca del valor… pero no llegaste.",
+"🦥 Más lento que un perezoso. Shot por miedo.",
+"😬 El reto te ganó esta vez.",
+"🔥 Mucho calor en la mesa… menos en tu valentía.",
+"🥴 Bueno… al menos el tequila nunca decepciona.",
+"🍸 Tu orgullo acaba de pagar ese shot.",
+"💀 Descansa en paz tu dignidad.",
+"📉 Nivel de valentía: crítico.",
+"😈 El tequila está esperando por ti.",
+"🏆 Premio al más cobarde del turno."]
     return random.choice(burlas)
 
 def obtener_frase(modo, nivel, tipo):
@@ -140,6 +133,7 @@ else:
     </div>
     """, unsafe_allow_html=True)
 
+ # --- 7. LÓGICA DE ACCIONES Y RULETA ---
     if state["mensaje_burla"]:
         st.error(state["mensaje_burla"])
 
@@ -150,18 +144,19 @@ else:
         if st.button("🎲 GIRAR RULETA"):
             if state["modo"] == "pareja":
                 # Ruleta Picante para Parejas
-                ruleta = [
-                    "HIELO: Pasa un cubo de hielo por la espalda de tu pareja hasta que se derrita.", 
-                    "7 MINUTOS: Vayan a solas a otra habitación por 7 minutos exactos.",
-                    
-                     "MASAJE: Dale un masaje relajante de 2 minutos en la zona que tu pareja elija.",
-                      "FANTASÍA: Confiesa una fantasía o deseo que nunca te hayas atrevido a mencionar.",
-                       "BESO CIEGO: Tápate los ojos y deja que tu pareja te bese en el lugar que prefiera.", 
-                       "INTERCAMBIO: Intercambien una prenda de ropa superior por el resto de la partida.", 
-                       "DICTADO: Tu pareja te ordena realizar una caricia o beso específico y debes obedecer.", 
-                       "WHATSAPP LOVE: Escribe un mensaje muy cursi y publícalo en tus redes sociales.", "MORDIDA: Dale una mordida suave en la oreja o en el cuello a tu pareja.", "RECREACIÓN: Actúen aquí mismo cómo fue su primer beso o su primera cita.", 
-                       "CONFESIÓN: ¿Qué fue lo primero que pensaste de tu pareja cuando la conociste?", "BAILE: Bailen una canción lenta abrazados durante un minuto completo.", "SECRETOS: Muestra la foto más antigua que tengas de ambos en tu galería.", "CARICIAS: Hazle cosquillas a tu pareja hasta que te pida que te detengas.", "PROMESA: Haz una promesa romántica que debas cumplir la próxima semana.", "CINE: Describe a tu pareja usando solo títulos de películas.",
+                ruleta = [ 
+                     "CONFESIÓN: ¿Qué fue lo primero que pensaste de tu pareja cuando la conociste?", "BAILE: Bailen una canción lenta abrazados durante un minuto completo.", "SECRETOS: Muestra la foto más antigua que tengas de ambos en tu galería.", "CARICIAS: Hazle cosquillas a tu pareja hasta que te pida que te detengas.", "PROMESA: Haz una promesa romántica que debas cumplir la próxima semana.", "CINE: Describe a tu pareja usando solo títulos de películas.",
                          "CITA IDEAL: Describe cómo sería tu cita perfecta de 24 horas.", "MIRADAS: Mírense a los ojos fijamente por 1 minuto sin hablar.", "PIROPO: Di el piropo más naco o divertido que te sepas.", "SUSURRO: Susurra algo atrevido al oído de tu pareja.", "CALOR: Quítate una prenda que tu pareja elija.", "PODER: Tu pareja puede pedirte cualquier favor pequeño ahora mismo.", "TATUAJE: Dibuja algo con un marcador en la piel de tu pareja.", "COMPLICIDAD: Cuenten un secreto que solo ustedes dos sepan.", "FOTO HOT: Tómense una foto sugerente (solo para ustedes).", "FUTURO: ¿Dónde se ven viviendo juntos en 5 años?", "GUSTO: ¿Cuál es la parte del cuerpo de tu pareja que más te atrae?", "PRIMERA VEZ: Cuenta un detalle gracioso de su primera vez juntos.", "CANCIÓN: Dedícale una canción que te recuerde a ella/él.", "REGLA: Prohíbe una palabra cariñosa por el resto del juego.", "ABRAZO LARGO: Abrázalo/a por la espalda mientras el siguiente jugador toma su turno.", "VALOR: ¿Qué es lo que más admiras de tu pareja?", "SUEÑO: Cuenta un sueño extraño que hayas tenido con tu pareja."
+                    "HIELO: Pasa un hielo por el cuello de tu pareja usando solo la boca.",
+                    "CALOR: Quítale una prenda a tu pareja usando solo los dientes.",
+                    "MASAJE: Dale un masaje de 1 minuto en la zona que tu pareja elija.",
+                    "SUSURRO: Susúrrale al oído tu fantasía más sucia.",
+                    "BÉSAME MUCHO: Besa a tu pareja en 3 lugares sorpresa.",
+                    "MORDIDA: Dale una mordida suave en el lóbulo de la oreja.",
+                    "CIEGO: Tápale los ojos a tu pareja y dale 5 besos.",
+                    "REGLA DE 10 SEG: Beso francés intenso durante 10 segundos.",
+                    "NALGADA: Dale una nalgada a tu pareja (con amor).",
+                    "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!"
                     "HIELO: Pasa un hielo por el cuello de tu pareja usando solo la boca.",
                     "CALOR: Quítale una prenda a tu pareja usando solo los dientes.",
                     "MASAJE: Dale un masaje de 1 minuto en la zona que tu pareja elija.",
@@ -174,12 +169,19 @@ else:
                     "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!"
                 ]
             else:
-                # Ruleta de Peda 
+                # Ruleta de Peda (la lista larga que me pediste)
                 ruleta = [
                     "CASCADA: Todos beben hasta que el de su derecha pare.",
-                                         "FONDO: Los últimos 2 en tocarse la nariz beben doble shot.",
+                    "FONDO: Los últimos 2 en tocarse la nariz beben doble shot.",
                     "TRES MOSQUETEROS: Tú y los 2 de a lado beben 2 shots.",
-                                         "ESPEJO: Eliges a alguien; lo que bebas tú, lo bebe esa persona.",
+                    "ESPEJO: Eliges a alguien; lo que bebas tú, lo bebe esa persona.",
+                    "EL MAESTRO: Todos beben excepto tú.",
+                    "SHOT COMUNITARIO: Todos los que tengan el celular en la mano beben.",
+                    "PISO ES LAVA: El último en levantarse de su asiento bebe 2 shots.",
+                    "DICTADOR: Eliges quién bebe 3 shots ahora mismo.",
+                    "SOLTEROS: Todos los solteros beben 2 shots.",
+                    "FINAL ÉPICO: ¡TODOS BEBEN DOS SHOTS!"
+                                        "ESPEJO: Eliges a alguien; lo que bebas tú, lo bebe esa persona.",
                     "EL MAESTRO: Todos beben excepto tú.",
                                          "SHOT COMUNITARIO: Todos los que tengan el celular en la mano beben.",
                     "PISO ES LAVA: El último en levantarse de su asiento bebe 2 shots.",

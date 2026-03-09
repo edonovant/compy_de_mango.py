@@ -50,13 +50,21 @@ def obtener_burla():
 "🏆 Premio al más cobarde del turno."]
     return random.choice(burlas)
 
-def obtener_frase(modo, nivel, tipo):
-    ruta = f"Niveles/{modo}/{tipo}{nivel}.txt"
+  def obtener_frase(modo, nivel, tipo):
+    # Agregamos "pyton/" porque esa es la carpeta donde vive todo en tu GitHub
+    ruta = f"pyton/Niveles/{modo}/{tipo}{nivel}.txt"
+    
     if os.path.exists(ruta):
-        with open(ruta, "r", encoding="utf-8") as f:
-            lineas = [l.strip() for l in f.readlines() if l.strip()]
-            if lineas: return random.choice(lineas)
-    return "que te da fomo"
+        try:
+            with open(ruta, "r", encoding="utf-8") as f:
+                lineas = [l.strip() for l in f.readlines() if l.strip()]
+                if lineas:
+                    return random.choice(lineas)
+        except Exception as e:
+            return f"Error al leer: {str(e)}"
+    
+    # Si sale esto, es porque la ruta sigue mal o el archivo no existe
+    return f"Error: No se encontró {ruta}"
 
 # --- 4. LOBBY ---
 if "sala_id" not in st.session_state:
@@ -278,4 +286,5 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 

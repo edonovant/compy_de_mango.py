@@ -51,13 +51,21 @@ def obtener_burla():
     return random.choice(burlas)
 
 def obtener_frase(modo, nivel, tipo):
-    # Agregamos "pyton/" porque esa es la carpeta donde vive todo en tu GitHub
+    # Definimos la ruta correcta usando la carpeta pyton
     ruta = f"pyton/Niveles/{modo}/{tipo}{nivel}.txt"
     
     if os.path.exists(ruta):
         try:
             with open(ruta, "r", encoding="utf-8") as f:
-
+                # Leemos y limpiamos las líneas
+                lineas = [l.strip() for l in f.readlines() if l.strip()]
+                if lineas:
+                    return random.choice(lineas)
+        except Exception as e:
+            return f"Error de lectura: {str(e)}"
+    
+    # Si no encuentra el archivo, devuelve esta frase por defecto
+    return "Escribe aquí tu frase de respaldo personalizada"
 # --- 4. LOBBY ---
 if "sala_id" not in st.session_state:
     st.title("🍹 Compy de Mango")
@@ -278,6 +286,7 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 
 

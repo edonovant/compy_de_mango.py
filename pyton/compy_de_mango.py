@@ -174,7 +174,7 @@ else:
                     "CIEGO: Tápale los ojos a tu pareja y dale 5 besos.",
                     "REGLA DE 10 SEG: Beso francés intenso durante 10 segundos.",
                     "NALGADA: Dale una nalgada a tu pareja (con amor).",
-                    "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!", Dale un beso de 10 segundos en el cuello a tu pareja."
+                    "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!".
 
                 ]
             else:
@@ -287,6 +287,7 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 
 

@@ -175,105 +175,7 @@ else:
                     "REGLA DE 10 SEG: Beso francés intenso durante 10 segundos.",
                     "NALGADA: Dale una nalgada a tu pareja (con amor).",
                     "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!", Dale un beso de 10 segundos en el cuello a tu pareja."
-Hazle un masaje de hombros a tu pareja por un minuto.
-Dile a tu pareja qué es lo que más te gusta de su cuerpo.
-Dale un beso apasionado de película a tu pareja.
-Dile a tu pareja un secreto que nunca le hayas contado.
-Hazle un cumplido sincero a tu pareja sobre algo que no sea su físico.
-Besa a tu pareja en la frente y susúrrale algo tierno.
-Deja que tu pareja te elija un shot de la bebida que quiera.
-Hazle un baile sugerente a tu pareja durante 30 segundos.
-Dile a tu pareja cuál fue tu primera impresión cuando lo/la viste.
-Dale un beso en la oreja a tu pareja.
-Deja que tu pareja te pinte o dibuje algo en la cara o brazos.
-Hazle un masaje en los pies a tu pareja.
-Dale un beso largo en la mano de tu pareja como si fueras un caballero/dama.
-Dile a tu pareja cuál es tu recuerdo favorito juntos.
-Deja que tu pareja te tome una foto haciendo una pose ridícula.
-Hazle cosquillas a tu pareja durante 30 segundos.
-Dile a tu pareja qué es lo que más te vuelve loco/a de él/ella.
-Dale un beso en la punta de la nariz a tu pareja.
-Hazle un cumplido a tu pareja usando un acento divertido.
-Susúrrale a tu pareja algo que te gustaría hacer con él/ella esta noche.
-Dale un beso en la mejilla a tu pareja sin usar las manos.
-Deja que tu pareja te cuente un chiste y si no te ríes, tomas un shot.
-Hazle un masaje en la cabeza o cuero cabelludo a tu pareja.
-Dile a tu pareja por qué es la persona más especial para ti.
-Dale un beso en el hombro a tu pareja.
-Cántale una canción romántica (o inventada) a tu pareja.
-Deja que tu pareja te escriba algo en la espalda con el dedo.
-Hazle una pregunta profunda a tu pareja y escucha la respuesta.
-Dile a tu pareja cuál es el momento en el que más te has reído con él/ella.
-Dale un beso en la palma de la mano a tu pareja.
-Hazle un masaje en los brazos a tu pareja.
-Dile a tu pareja qué outfit le queda mejor.
-Dale un beso corto en los labios a tu pareja.
-Deja que tu pareja elija tu próxima bebida.
-Hazle un cumplido sobre su inteligencia a tu pareja.
-Dile a tu pareja cuál es tu lugar favorito para tener una cita.
-Dale un beso en el lóbulo de la oreja a tu pareja.
-Hazle un masaje rápido en la espalda a tu pareja.
-Dile a tu pareja qué es lo que más admiras de su personalidad.
-Dale un beso en el cuello a tu pareja mientras lo/la abrazas.
-Deja que tu pareja te haga una pregunta incómoda y debes responderla con la verdad.
-Hazle un cumplido sobre su estilo a tu pareja.
-Dile a tu pareja cuál es la canción que te recuerda a él/ella.
-Dale un beso en la barbilla a tu pareja.
-Hazle un masaje en las manos a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su sonrisa.
-Dale un beso fugaz en los labios a tu pareja.
-Deja que tu pareja te ponga un apodo divertido.
-Hazle un cumplido sobre su sentido del humor a tu pareja.
-Dile a tu pareja cuál es tu comida favorita que él/ella prepara.
-Dale un beso en el párpado a tu pareja.
-Hazle un masaje en la parte baja de la espalda a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su mirada.
-Dale un beso en la clavícula a tu pareja.
-Deja que tu pareja te elija un reto físico para hacer.
-Hazle un cumplido sobre su voz a tu pareja.
-Dile a tu pareja cuál es el regalo más especial que te ha dado.
-Dale un beso en la frente y dile "te quiero".
-Hazle un masaje relajante en el cuello a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su risa.
-Dale un beso en la mano a tu pareja.
-Deja que tu pareja te cuente una historia de su infancia.
-Hazle un cumplido sobre su forma de ser a tu pareja.
-Dile a tu pareja cuál es el viaje que más deseas hacer con él/ella.
-Dale un beso en la mejilla a tu pareja.
-Hazle un masaje en los muslos a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su cabello.
-Dale un beso en el dorso de la mano a tu pareja.
-Deja que tu pareja elija una película para ver juntos después.
-Hazle un cumplido sobre su determinación a tu pareja.
-Dile a tu pareja cuál es tu mayor sueño juntos.
-Dale un beso en el brazo a tu pareja.
-Hazle un masaje en las pantorrillas a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su actitud.
-Dale un beso en la coronilla a tu pareja.
-Deja que tu pareja te elija una prenda de ropa para usar.
-Hazle un cumplido sobre su creatividad a tu pareja.
-Dile a tu pareja cuál es la película que más te recuerda a él/ella.
-Dale un beso en la mejilla a tu pareja con los ojos cerrados.
-Hazle un masaje en la espalda alta a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su amabilidad.
-Dale un beso en el hombro a tu pareja.
-Deja que tu pareja te cuente qué es lo que más le gusta de ti.
-Hazle un cumplido sobre su paciencia a tu pareja.
-Dile a tu pareja cuál es el libro que te recuerda a él/ella.
-Dale un beso en la nariz a tu pareja.
-Hazle un masaje en las sienes a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su curiosidad.
-Dale un beso en el cuello a tu pareja mientras lo/la miras a los ojos.
-Deja que tu pareja te elija un tema de conversación para los próximos 5 minutos.
-Hazle un cumplido sobre su pasión a tu pareja.
-Dile a tu pareja cuál es el videojuego (si juegan) que le recuerda a él/ella.
-Dale un beso en la mejilla a tu pareja como si fuera la primera vez.
-Hazle un masaje en los dedos a tu pareja.
-Dile a tu pareja qué es lo que más te gusta de su honestidad.
-Dale un beso en la frente a tu pareja mientras lo/la abrazas.
-Deja que tu pareja te cuente un sueño raro que haya tenido recientemente.
-Hazle un cumplido sobre su valentía a tu pareja.
-Dile a tu pareja por qué eres afortunado/a de estar con él/ella.
+
                 ]
             else:
                 # Ruleta de Peda (la lista larga que me pediste)
@@ -385,6 +287,7 @@ Dile a tu pareja por qué eres afortunado/a de estar con él/ella.
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 
 

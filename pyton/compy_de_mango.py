@@ -174,7 +174,7 @@ else:
                     "CIEGO: Tápale los ojos a tu pareja y dale 5 besos.",
                     "REGLA DE 10 SEG: Beso francés intenso durante 10 segundos.",
                     "NALGADA: Dale una nalgada a tu pareja (con amor).",
-                    "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!", Dale un beso de 10 segundos en el cuello a tu pareja.
+                    "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!", Dale un beso de 10 segundos en el cuello a tu pareja."
 Hazle un masaje de hombros a tu pareja por un minuto.
 Dile a tu pareja qué es lo que más te gusta de su cuerpo.
 Dale un beso apasionado de película a tu pareja.
@@ -385,6 +385,7 @@ Dile a tu pareja por qué eres afortunado/a de estar con él/ella.
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 
 

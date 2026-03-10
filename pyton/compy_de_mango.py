@@ -101,19 +101,37 @@ else:
         "peda": {"bg": "#fb5607", "card": "#ff7043", "border": "#9e0059", "icon": "🍾"}
     }
 
-    # --- 6. DISEÑO SIN ENCIMAMIENTOS (CSS REVISADO) ---
-    # ... (tus colores y estilo de icono se mantienen igual)
+   # --- 6. DISEÑO SIN ENCIMAMIENTOS (CSS REVISADO) ---
+    colores = {
+        "pareja": {"bg": "#ff4d6d", "card": "#ff758f", "border": "#c9184a", "icon": "❤️"},
+        "amigos": {"bg": "#4361ee", "card": "#4895ef", "border": "#3f37c9", "icon": "✨"},
+        "peda": {"bg": "#fb5607", "card": "#ff7043", "border": "#9e0059", "icon": "🍾"}
+    }
+    estilo = colores[state["modo"]]
+    icono = estilo["icon"]
 
     st.markdown(f"""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@900&display=swap');
-    .stApp {{ background-color: {estilo['bg']} !important; overflow-x: hidden; }}
     
-    /* Partículas ajustadas */
-    @keyframes falling {{ 0% {{ top: -10%; transform: rotate(0deg); }} 100% {{ top: 110%; transform: rotate(360deg); }} }}
-    .particle {{ position: fixed; font-size: 2rem; z-index: 0; animation: falling 6s linear infinite; opacity: 0.6; }}
+    .stApp {{ 
+        background-color: {estilo['bg']} !important; 
+        overflow-x: hidden; 
+    }}
+    
+    @keyframes falling {{ 
+        0% {{ top: -10%; transform: rotate(0deg); }} 
+        100% {{ top: 110%; transform: rotate(360deg); }} 
+    }}
+    
+    .particle {{ 
+        position: fixed; 
+        font-size: 2rem; 
+        z-index: 0; 
+        animation: falling 6s linear infinite; 
+        opacity: 0.6; 
+    }}
 
-    /* Tarjeta Compacta */
     .toy-card {{
         background: {estilo['card']};
         border: 6px solid {estilo['border']};
@@ -123,17 +141,23 @@ else:
         box-shadow: 0px 10px 0px {estilo['border']};
         color: white;
         margin-bottom: 2rem;
-        position: relative; z-index: 1;
+        position: relative; 
+        z-index: 1;
     }}
-    .player-name {{ font-family: 'Fredoka One', cursive; font-size: 3.5rem; text-shadow: 3px 3px 0px {estilo['border']}; }}
     
-    /* ESTA ES LA PARTE QUE CAMBIA LAS LETRAS A BLANCO */
+    .player-name {{ 
+        font-family: 'Fredoka One', cursive; 
+        font-size: 3.5rem; 
+        text-shadow: 3px 3px 0px {estilo['border']}; 
+    }}
+    
+    /* LETRAS BLANCAS PARA LOS RETOS */
     .stAlert p {{
         color: white !important;
         font-weight: bold !important;
         font-size: 1.1rem !important;
     }}
-    /* Quita el color azul/rojo de fondo de los iconos para que no distraigan */
+    
     .stAlert {{
         background-color: rgba(0,0,0,0.8) !important;
         border: 2px solid white !important;
@@ -296,3 +320,4 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+

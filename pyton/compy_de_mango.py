@@ -17,7 +17,7 @@ def obtener_burla():
     burlas = ["🐣 ¡Vaya pollito!", "🏳️ ¡Bandera blanca!", "🍺 ¡Fondo!", "🤡 ¡Payaso!",  "📉 Tu dignidad acaba de caer por los suelos. ¡Salud!",
         "🐢 ¡Lento y miedoso! Tómate ese shot por cobarde.",
         "🤡 ¡Payaso! Para la otra mejor quédate en casa.",
-        "🧊 Alguien se congeló bajo presión. ¡A beber!"
+        "🧊 Alguien se congeló bajo presión. ¡A beber!",
         "🐔 ¡Gallina detectada! Ese shot no se va a tomar solo.",
 "😱 ¡Uy! El miedo se sentó contigo en la mesa.",
 "🥃 No cumpliste... ya sabes lo que toca. ¡Salud!",
@@ -320,4 +320,5 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 

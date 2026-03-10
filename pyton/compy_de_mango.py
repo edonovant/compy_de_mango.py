@@ -54,6 +54,10 @@ def obtener_frase(modo, nivel, tipo):
     # Definimos la ruta correcta usando la carpeta pyton
     ruta = f"pyton/Niveles/{modo}/{tipo}{nivel}.txt"
     
+    def obtener_frase(modo, nivel, tipo):
+    # Definimos la ruta correcta usando la carpeta pyton
+    ruta = f"pyton/Niveles/{modo}/{tipo}{nivel}.TXT"
+    
     if os.path.exists(ruta):
         try:
             with open(ruta, "r", encoding="utf-8") as f:
@@ -66,9 +70,6 @@ def obtener_frase(modo, nivel, tipo):
     
     # Si no encuentra el archivo, devuelve esta frase por defecto
     return "Escribe aquí tu frase de respaldo personalizada"
-# --- 4. LOBBY ---
-if "sala_id" not in st.session_state:
-    st.title("🍹 Compy de Mango")
     tipo = st.radio("Selecciona:", ["🏠 Local", "🌐 Multijugador"])
     with st.expander("📝 Configurar", expanded=True):
         sala_nombre = st.text_input("Nombre Sala:") if "Multijugador" in tipo else "Local_" + str(random.randint(100, 999))
@@ -287,6 +288,7 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 
 

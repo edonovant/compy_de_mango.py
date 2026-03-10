@@ -210,6 +210,7 @@ else:
                     "NALGADA: Dale una nalgada a tu pareja (con amor).",
                     "FINAL HOT: ¡Beso de 30 segundos o ambos beben 3 shots!"
                 ]
+                state["reto_actual"] = random.choice(ruleta)
             else:
                 # Ruleta de Peda (la lista larga que me pediste)
                 ruleta = [
@@ -320,5 +321,6 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 

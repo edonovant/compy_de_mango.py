@@ -130,7 +130,7 @@ else:
     .stAlert {{ background-color: rgba(0,0,0,0.8) !important; color: white !important; border-radius: 15px; border: 2px solid white; }}
     </style>
     
-    <div class="particle" style="left:10%">{icono}</div>
+    <div class="particle" style="left:70%">{icono}</div>
     <div class="particle" style="left:80%; animation-delay:3s">{icono}</div>
 
     <div class="toy-card">
@@ -287,6 +287,7 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 
 

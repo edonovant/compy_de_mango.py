@@ -56,7 +56,7 @@ def obtener_frase(modo, nivel, tipo):
         with open(ruta, "r", encoding="utf-8") as f:
             lineas = [l.strip() for l in f.readlines() if l.strip()]
             if lineas: return random.choice(lineas)
-    return "¿Qué es lo primero que haces cuando tienes resaca?"
+    return "sssss?"
 
 # --- 4. LOBBY ---
 if "sala_id" not in st.session_state:
@@ -278,4 +278,5 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 

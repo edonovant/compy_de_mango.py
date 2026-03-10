@@ -278,3 +278,4 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+

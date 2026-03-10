@@ -127,7 +127,7 @@ else:
     .player-name {{ font-family: 'Fredoka One', cursive; font-size: 3.5rem; text-shadow: 3px 3px 0px {estilo['border']}; }}
     
     /* Cuadros de texto legibles */
-    .stAlert {{ background-color: rgba(0,0,0,0.8) !important; color: white !important; border-radius: 15px; border: 2px solid white; }}
+    .stAlert {{ background-color: rgba(0,0,0,0.9) !important; color: white !important; border-radius: 15px; border: 2px solid white; }}
     </style>
     
     <div class="particle" style="left:70%">{icono}</div>
@@ -287,6 +287,7 @@ else:
         if "datos_locales" in st.session_state:
             del st.session_state["datos_locales"]
         st.rerun()
+
 
 
 
